@@ -1,0 +1,13 @@
+{
+	"name" : "combat-template-cleanup",
+	"title" : "Combat Template Cleanup",
+	"description" : "Provides advanced options for template cleanup during combat.",
+	"author" : ["kekilla#7036"],
+	"version" : "0.1.0",
+	"minimumCoreVersion" : "0.6.0",
+	"esmodules" : ["scripts/hooks.js"],
+	"systems" : ["dnd5e"],
+	"url" : "https://github.com/Kekilla0/CTC",
+	"manifest" : "",
+	"download" : ""
+}

@@ -94,22 +94,3 @@ function _dialog()
           }).render(true);
     })
 }
-
-async function _canvasFlagClean()
-{
-    let template_ids = await canvas.scene.getFlag('combat-template-cleanup', 'ids');
-    
-    if(template_ids !== undefined)
-    {
-        let data = [];
-        for(let id of template_ids)
-        {
-            if(canvas.templates.placeables.inludes(id))
-            {
-                data.push(id);
-            }
-        }
-        canvas.scene.unsetFlag('combat-template-cleanup','ids');
-        canvas.scene.setFlag('combat-template-cleanup','ids', data);
-    }
-}

@@ -9,7 +9,7 @@ Provides a quick means to remove templates soon after placing them in combat.
 # Usage
 Once activated in the module menu, after a user places a template on the next turn a dialog will ask if they would like to remove the template. At the end of each round the dialog will show again allowing the user to remove or keep the dialog.
 
-![In Action](https://media.giphy.com/media/SwrgiXc2p3xKItlEkf/giphy.gif)
+![In Action](https://i.gyazo.com/ec196c4f3e68148ebac522c13fb06f37.gif)
 
 # Support
 For questions, feature requests, or bug reports, feel free to contact me on the Foundry Discord (Kekilla#7036) or open an issue here directly.
